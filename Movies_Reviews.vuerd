@@ -49,7 +49,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "리뷰 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -64,7 +64,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 71.5703125,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "ef2c35b2-add3-4b71-b56c-b52fcbeab060"
@@ -72,7 +72,7 @@
           {
             "name": "REVIEW_TITLE",
             "comment": "리뷰 제목",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -87,7 +87,7 @@
               "pfk": false,
               "widthName": 83.60546875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "d97f8ab0-43d3-478e-b881-2105b15f0130"
@@ -95,7 +95,7 @@
           {
             "name": "COMMENT",
             "comment": "내용",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -110,7 +110,7 @@
               "pfk": false,
               "widthName": 67.5712890625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "717fa909-56a3-44d8-8a71-ca6be912daba"
@@ -118,7 +118,7 @@
           {
             "name": "CREATED_DATE",
             "comment": "작성일",
-            "dataType": "",
+            "dataType": "TIMESTAMP",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 91.34326171875,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 71.93212890625,
               "widthDefault": 60
             },
             "id": "fa06fed6-7329-40e1-9ef3-25b251d7fbbf"
@@ -141,7 +141,7 @@
           {
             "name": "STAR_POINT",
             "comment": "별점",
-            "dataType": "",
+            "dataType": "INTEGER",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -166,7 +166,7 @@
           "active": false,
           "left": 145.0002,
           "top": 69.1658,
-          "zIndex": 223,
+          "zIndex": 275,
           "widthName": 60,
           "widthComment": 60
         },
@@ -180,7 +180,7 @@
           {
             "name": "MOVIE_NAME_UNIQUE_ID",
             "comment": "영화 이름 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -195,7 +195,7 @@
               "pfk": false,
               "widthName": 157.54296875,
               "widthComment": 102.140625,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "bcd56d2a-1541-4fcf-9b21-7fbd4da38736"
@@ -203,7 +203,7 @@
           {
             "name": "MOVIE_NAME",
             "comment": "영화이름",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -218,7 +218,7 @@
               "pfk": false,
               "widthName": 85.13525390625,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "40442fc0-1bcb-419b-a1a6-305da607852d"
@@ -228,7 +228,7 @@
           "active": false,
           "left": 146.6663,
           "top": 272.4998,
-          "zIndex": 225,
+          "zIndex": 251,
           "widthName": 114.4169921875,
           "widthComment": 89.140625
         },
@@ -242,7 +242,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "리뷰대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -257,7 +257,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 67,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "4d06517e-b30c-4f7d-88c4-8ca3c98ea48a"
@@ -265,7 +265,7 @@
           {
             "name": "MOVIE_NAME_UNIQUE_ID",
             "comment": "영화 이름 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -280,7 +280,7 @@
               "pfk": false,
               "widthName": 157.54296875,
               "widthComment": 102.140625,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "5a8dd770-0033-47b0-9bfa-83bf2d31ddf6"
@@ -290,7 +290,7 @@
           "active": false,
           "left": 829.9997,
           "top": 150.8332,
-          "zIndex": 235,
+          "zIndex": 258,
           "widthName": 92.19384765625,
           "widthComment": 67
         },
@@ -304,7 +304,7 @@
           {
             "name": "REVIEW_UNIQUE_ID",
             "comment": "사용자들 대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -319,7 +319,7 @@
               "pfk": false,
               "widthName": 120.1298828125,
               "widthComment": 97.5703125,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "2987ffcb-51eb-467a-89f7-557402d7c6b2"
@@ -327,7 +327,7 @@
           {
             "name": "RENTERS_UNIQUE_ID",
             "comment": "리뷰대표값",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -342,7 +342,7 @@
               "pfk": false,
               "widthName": 127.65185546875,
               "widthComment": 67,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "2342d05f-30c8-40ad-bf45-ddec91d00d11"
@@ -366,7 +366,7 @@
           {
             "name": "RENTERS",
             "comment": "사용자들",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -381,7 +381,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "01840596-9e2f-4c2d-9f44-f174d87338d9"
@@ -389,7 +389,7 @@
           {
             "name": "RENTERS_UNIQUE_ID",
             "comment": "사용자들 대표값 ",
-            "dataType": "",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -404,7 +404,7 @@
               "pfk": false,
               "widthName": 127.65185546875,
               "widthComment": 102.140625,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "2a8c26a7-a0d5-4d29-8922-9d26d86a900c"
@@ -414,7 +414,7 @@
           "active": false,
           "left": 149.9996,
           "top": 417.5,
-          "zIndex": 227,
+          "zIndex": 255,
           "widthName": 60,
           "widthComment": 60
         },
@@ -438,7 +438,7 @@
           "columnIds": [
             "ef2c35b2-add3-4b71-b56c-b52fcbeab060"
           ],
-          "x": 563.7003953125,
+          "x": 592.9933640625,
           "y": 112.0408,
           "direction": "right"
         },
@@ -464,7 +464,7 @@
           "columnIds": [
             "bcd56d2a-1541-4fcf-9b21-7fbd4da38736"
           ],
-          "x": 633.34989375,
+          "x": 662.6428625,
           "y": 327.4998,
           "direction": "right"
         },
@@ -490,7 +490,7 @@
           "columnIds": [
             "ef2c35b2-add3-4b71-b56c-b52fcbeab060"
           ],
-          "x": 563.7003953125,
+          "x": 592.9933640625,
           "y": 197.7908,
           "direction": "right"
         },
@@ -516,7 +516,7 @@
           "columnIds": [
             "2a8c26a7-a0d5-4d29-8922-9d26d86a900c"
           ],
-          "x": 606.79208046875,
+          "x": 636.08504921875,
           "y": 472.5,
           "direction": "right"
         },

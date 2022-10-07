@@ -43,12 +43,12 @@
   "table": {
     "tables": [
       {
-        "name": "영화이름과 장르",
-        "comment": "",
+        "name": "MOVIE_NAME_GENRE",
+        "comment": "영화이름과 장르 ",
         "columns": [
           {
-            "name": "영화 이름과 장르",
-            "comment": "",
+            "name": "MOVIE_NAME_GENRE",
+            "comment": "영화이름과 장르",
             "dataType": "",
             "default": "",
             "option": {
@@ -62,8 +62,8 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 102.140625,
-              "widthComment": 60,
+              "widthName": 131.111328125,
+              "widthComment": 97.5703125,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -71,7 +71,7 @@
           },
           {
             "name": "UniqueID",
-            "comment": "",
+            "comment": "대표값",
             "dataType": "",
             "default": "",
             "option": {
@@ -97,9 +97,9 @@
           "active": false,
           "left": 33.3334,
           "top": 95.0001,
-          "zIndex": 127,
-          "widthName": 97.5703125,
-          "widthComment": 60,
+          "zIndex": 40,
+          "widthName": 131.111328125,
+          "widthComment": 102.140625,
           "color": "#FFC192"
         },
         "visible": true,
@@ -110,8 +110,8 @@
         "comment": "",
         "columns": [
           {
-            "name": "이름",
-            "comment": "",
+            "name": "NAME",
+            "comment": "이름",
             "dataType": "",
             "default": "",
             "option": {
@@ -133,7 +133,7 @@
             "id": "cbf222e2-dc8d-4ef7-98e9-c0811717e391"
           },
           {
-            "name": "대여자 UniqueID",
+            "name": "RENTER UniqueID",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -148,7 +148,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 100.5537109375,
+              "widthName": 107.7392578125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -160,7 +160,7 @@
           "active": false,
           "left": 85.8331,
           "top": 320.8328,
-          "zIndex": 128,
+          "zIndex": 58,
           "widthName": 60,
           "widthComment": 60,
           "color": "#E9FF69"
@@ -223,7 +223,7 @@
           "active": false,
           "left": 649.1666,
           "top": 106.6665,
-          "zIndex": 125,
+          "zIndex": 1,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FF6363"
@@ -286,7 +286,7 @@
           "active": false,
           "left": 650.8338,
           "top": 290.0011,
-          "zIndex": 126,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60,
           "color": "#DA5A5A"
@@ -349,7 +349,7 @@
           "active": false,
           "left": 71.9444,
           "top": 485.0001,
-          "zIndex": 129,
+          "zIndex": 5,
           "widthName": 67,
           "widthComment": 60,
           "color": "#FA74FF"
@@ -374,7 +374,7 @@
           "columnIds": [
             "414e3266-9f9b-45e4-810c-b69822a20871"
           ],
-          "x": 422.474025,
+          "x": 489.015040625,
           "y": 122.5001,
           "direction": "right"
         },
@@ -400,7 +400,7 @@
           "columnIds": [
             "31a67d31-e734-4156-a630-b58aefa7e249"
           ],
-          "x": 473.3868109375,
+          "x": 480.5723578125,
           "y": 375.8328,
           "direction": "right"
         },
@@ -426,7 +426,7 @@
           "columnIds": [
             "414e3266-9f9b-45e4-810c-b69822a20871"
           ],
-          "x": 422.474025,
+          "x": 489.015040625,
           "y": 177.5001,
           "direction": "right"
         },
@@ -436,7 +436,7 @@
             "913169d5-fb2b-4f05-8fe1-f6bd5f5f37f0"
           ],
           "x": 650.8338,
-          "y": 372.5011,
+          "y": 317.5011,
           "direction": "left"
         },
         "constraintName": "fk_영화이름과 장르_to_포스터",
@@ -462,7 +462,7 @@
             "54defd9f-4657-4702-a246-1c06837a8f1d"
           ],
           "x": 650.8338,
-          "y": 317.5011,
+          "y": 372.5011,
           "direction": "left"
         },
         "constraintName": "fk_포스터목록_to_포스터",
