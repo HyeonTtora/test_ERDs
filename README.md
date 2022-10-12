@@ -8,4 +8,6 @@
 - ## [#5 Movies_Rent (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/Movies_Rent.png)  
 - ## [#6 Movies_Reviews (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/Movies_Reviews.png)  
 - ## [#7 Notice (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/notice.png)  
-- ## [#8 Good_influences (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/goodlist.png)
+- ## [#8 Good_influences (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/goodlist.png)  
+### 🪄이론 공부🪄  
+- ## [notion](https://satisfying-clover-588.notion.site/3e253161f71e46958c167197e47e90e8)  
