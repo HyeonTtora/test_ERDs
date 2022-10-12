@@ -4,7 +4,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": -39.16666511032322,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -43,13 +43,13 @@
   "table": {
     "tables": [
       {
-        "name": "Users",
-        "comment": "",
+        "name": "USERS",
+        "comment": "사용자들",
         "columns": [
           {
-            "name": "대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID",
+            "comment": "대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -62,23 +62,23 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 68.87255859375,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "37deffec-fe8a-443a-b81d-1e0842fd05d9"
           },
           {
-            "name": "이름",
-            "comment": "",
-            "dataType": "",
+            "name": "NAME",
+            "comment": "이름",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -87,21 +87,21 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "76b1610e-5b74-4100-87f6-ab03395ecb54"
           },
           {
-            "name": "이메일",
-            "comment": "",
-            "dataType": "",
+            "name": "EMAIL",
+            "comment": "이메일",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -110,15 +110,15 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "23c08ea1-a7d1-4123-b403-966c60ce8a51"
           },
           {
-            "name": "직책",
-            "comment": "",
-            "dataType": "",
+            "name": "JOB",
+            "comment": "직책",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -133,7 +133,7 @@
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "d8f7ddc3-2568-4d19-a9c3-f93666974b0b"
@@ -143,7 +143,7 @@
           "active": false,
           "left": 35.8336,
           "top": 51.6669,
-          "zIndex": 77,
+          "zIndex": 249,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FF7D7D"
@@ -152,13 +152,13 @@
         "id": "2dfc5f36-7476-4ee1-8081-2c896493336a"
       },
       {
-        "name": "Auth",
-        "comment": "",
+        "name": "AUTHS",
+        "comment": "권한들",
         "columns": [
           {
-            "name": "대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID_USERS",
+            "comment": "대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -171,17 +171,17 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 112.3095703125,
               "widthComment": 60,
-              "widthDataType": 60,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "5cdc4710-d03e-43a0-b4f6-fb794af6e2e3"
+            "id": "3508b7fc-3495-473e-808b-552ebcb7d0dc"
           },
           {
-            "name": "접근권한 대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID_AUTH_NAME",
+            "comment": "접근권한 대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -194,57 +194,57 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 97.5703125,
-              "widthComment": 60,
-              "widthDataType": 60,
+              "widthName": 150.9541015625,
+              "widthComment": 97.5703125,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "46c86d69-a05a-4beb-bab3-71260c255dfe"
+            "id": "dde73adf-c4bb-4594-88de-58c67ad5574e"
           }
         ],
         "ui": {
           "active": false,
-          "left": 586.6655,
-          "top": 62.5001,
-          "zIndex": 92,
+          "left": 651.6663,
+          "top": 185.0005,
+          "zIndex": 247,
           "widthName": 60,
           "widthComment": 60,
-          "color": "#FF7F7F"
+          "color": "#FFC8F1"
         },
         "visible": true,
         "id": "ab17c50f-af65-4299-b50d-d8de589e2d18"
       },
       {
-        "name": "AuthNames",
-        "comment": "",
+        "name": "AUTH_NAME",
+        "comment": "접근권한명",
         "columns": [
           {
-            "name": "대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "AUTH_NAME",
+            "comment": "접근권한명",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
+              "widthName": 78.54638671875,
+              "widthComment": 67,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "07f722ae-97be-4b07-a1e9-9b7c8f9410ad"
           },
           {
-            "name": "접근권한 대표값",
-            "comment": "",
-            "dataType": "",
+            "name": "UNIQUE_ID",
+            "comment": "접근권한 대표값",
+            "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
               "autoIncrement": false,
@@ -257,9 +257,9 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 97.5703125,
-              "widthComment": 60,
-              "widthDataType": 60,
+              "widthName": 68.87255859375,
+              "widthComment": 97.5703125,
+              "widthDataType": 89.29296875,
               "widthDefault": 60
             },
             "id": "d1ed68a8-3c8c-49d2-a2fe-f0232caf135c"
@@ -267,11 +267,11 @@
         ],
         "ui": {
           "active": false,
-          "left": 260.8328,
-          "top": 274.9999,
-          "zIndex": 94,
-          "widthName": 70.80859375,
-          "widthComment": 60,
+          "left": 31.6659,
+          "top": 365.8311,
+          "zIndex": 242,
+          "widthName": 78.54638671875,
+          "widthComment": 67,
           "color": "#E57171"
         },
         "visible": true,
@@ -294,22 +294,22 @@
           "columnIds": [
             "37deffec-fe8a-443a-b81d-1e0842fd05d9"
           ],
-          "x": 382.8336,
+          "x": 420.99912734375,
           "y": 127.1669,
           "direction": "right"
         },
         "end": {
           "tableId": "ab17c50f-af65-4299-b50d-d8de589e2d18",
           "columnIds": [
-            "5cdc4710-d03e-43a0-b4f6-fb794af6e2e3"
+            "3508b7fc-3495-473e-808b-552ebcb7d0dc"
           ],
-          "x": 586.6655,
-          "y": 90.0001,
+          "x": 651.6663,
+          "y": 212.5005,
           "direction": "left"
         },
-        "constraintName": "fk_users_to_authnames",
+        "constraintName": "fk_users_to_auths",
         "visible": true,
-        "id": "cb673f63-88a0-45aa-aa99-f612b63cfb2c"
+        "id": "361cd84d-43c8-4440-94ba-73ca2f62bb92"
       },
       {
         "identification": false,
@@ -320,22 +320,22 @@
           "columnIds": [
             "d1ed68a8-3c8c-49d2-a2fe-f0232caf135c"
           ],
-          "x": 453.11795625,
-          "y": 274.9999,
-          "direction": "top"
+          "x": 464.07556796875,
+          "y": 420.8311,
+          "direction": "right"
         },
         "end": {
           "tableId": "ab17c50f-af65-4299-b50d-d8de589e2d18",
           "columnIds": [
-            "46c86d69-a05a-4beb-bab3-71260c255dfe"
+            "dde73adf-c4bb-4594-88de-58c67ad5574e"
           ],
-          "x": 586.6655,
-          "y": 145.0001,
+          "x": 651.6663,
+          "y": 267.5005,
           "direction": "left"
         },
-        "constraintName": "fk_auth_to_authnames",
+        "constraintName": "fk_autho_name_to_auths",
         "visible": true,
-        "id": "06a8313b-eb7e-4aba-8068-a1d48e24a7b1"
+        "id": "f79eed5d-9afc-4ebf-8a43-e9cbd9e20408"
       }
     ]
   }
