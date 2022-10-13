@@ -10,7 +10,7 @@
 - ## [#6 Movies_Reviews (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/Movies_Reviews.png)  
 - ## [#7 Notice (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/notice.png)  
 - ## [#8 Good_influences (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/goodlist.png)  
-- ## [#10 multi_board (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/multi_board/multi_board.png)
+- ## [#10 multi_board (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/multi_board/multi_board2.png)
 ### 🤔자기참조관계, 순환관계(Recursive Relationship)🤔
 - ## [#9 bicycle_bom (ERD)](https://github.com/HyeonTtora/test_ERDs/blob/master/bicycle_bom.png)  
 ### 🪄이론 공부🪄  
