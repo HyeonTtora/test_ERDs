@@ -1,5 +1,6 @@
 # 😶‍🌫️ ERD를 공부해보자 😶‍🌫️  
-### 🤯데이터 베이스 수업일지🤯  - KH정보교육원 (START 🚀 22.10.6 ~  )
+### 🤯데이터 베이스 수업일지🤯  
+- KH정보교육원 (START 🚀 22.10.6 ~  )
 - ## [#1 스프레드시트를 이용한 데이터 분류](https://github.com/HyeonTtora/test_ERDs/blob/master/excel_erd2.pdf)
 - ## [#2 스프레드시트를 이용한 데이터 분류](https://github.com/HyeonTtora/test_ERDs/blob/master/Member_Lent_erd.pdf)  
 - ## [#3 스프레드시트를 이용한 데이터 분류](https://github.com/HyeonTtora/test_ERDs/blob/master/movies_reivew.pdf)  
